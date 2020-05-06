@@ -27,3 +27,4 @@ Square waves are a special type of PWM signal in which the duty cycle is 50%. Th
 ***Figure 3***: Application schematic.
 
 ### Considerations
+

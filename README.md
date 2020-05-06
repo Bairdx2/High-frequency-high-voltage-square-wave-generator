@@ -11,7 +11,7 @@ Square waves are a special type of PWM signal in which the duty cycle is 50%. Th
 - Schematic diagram
 - Application data
 - Considerations
-
+##
 ### Items needed:
 
 1. Microcontroller (I used the Arduino UNO but any microcontroller with PWM will work)

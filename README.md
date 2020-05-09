@@ -22,9 +22,12 @@ Square waves are a special type of PWM signal in which the duty cycle is 50%. Th
 
 ![alt text](https://i.imgur.com/3ZBet1Q.png)
 ***Figure 2***: Microcontroller and motor driver connection schematic.
+
+The schematic above has an arduino that controls the duty cycle of the motor driver output. The top potentiometer connects to the arduino and rotating the dial increases or decreases the duty cycle of the arduino PWM signal.
 ##
 ### Application data
 
+![alt text](https://i.imgur.com/YJULPpa.png)
 ***Figure 3***: Application schematic.
 ##
 ### Considerations
@@ -39,3 +42,7 @@ Square waves are a special type of PWM signal in which the duty cycle is 50%. Th
 8. 
 9. 
 10. 
+
+<div class="text-blue mb-2">
+  .text-blue on white
+</div>

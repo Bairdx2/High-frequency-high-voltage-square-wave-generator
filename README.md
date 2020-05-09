@@ -43,6 +43,4 @@ The schematic above has an arduino that controls the duty cycle of the motor dri
 9. 
 10. 
 
-<div class="text-purple">
-  This text is purple
-</div>
+<font color="red">Status: **Not yet implemented**</font>

@@ -43,6 +43,6 @@ The schematic above has an arduino that controls the duty cycle of the motor dri
 9. 
 10. 
 
-<div class="text-blue mb-2">
-  .text-blue on white
+<div class="text-purple">
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
 </div>

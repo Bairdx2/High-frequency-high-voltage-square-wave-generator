@@ -20,6 +20,7 @@ Square waves are a special type of PWM signal in which the duty cycle is 50%. Th
 ##
 ### Schematic diagram
 
+![alt text](https://i.imgur.com/3ZBet1Q.png)
 ***Figure 2***: Microcontroller and motor driver connection schematic.
 ##
 ### Application data

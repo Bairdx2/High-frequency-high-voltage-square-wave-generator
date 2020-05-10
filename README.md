@@ -27,8 +27,16 @@ The schematic above has an arduino that controls the duty cycle of the motor dri
 ##
 ### Application data
 
+One very useful application of this circuit is that the square waves can be used to determine capacitance. The circuit below has the output of the motor driver connected to a capacitor and potentiometer that are in series. With an oscilloscope, the signal entering the potentiometer and the signal entering the capacitor are probed. The signal entering the potentiometer is square shaped but the signal entering the capacitor has a curvature as it rises. This curvature is the capacitor charging. The amount of time it takes for the capacitor to charge 63.2% is known as the RC time constant (τ) because in this case the circuit consists of a resistor (R) in series with a capacitor (C). This relationship is as follows: *τ = RC*. In this circuit, R is a known value and so is τ so therefore we can solve for capacitance and this is really useful when one comes across capacitors with unknown values. More information about this technique can be found [here](https://en.wikipedia.org/wiki/RC_time_constant) and [here](https://forum.arduino.cc/index.php?topic=173708.0)
+
 ![alt text](https://i.imgur.com/YJULPpa.png)
 ***Figure 3***: Application schematic.
+
+![alt text](https://i.imgur.com/YgjZy7b.png)
+***Figure 4***: Oscilloscope probe at potentiometer input.
+
+![alt text](https://i.imgur.com/eRJsuba.png)
+***Figure 5***: Potentiometer probe at capacitor input.
 ##
 ### Considerations
 

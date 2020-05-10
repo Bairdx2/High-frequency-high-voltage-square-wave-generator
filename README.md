@@ -38,7 +38,7 @@ One very useful application of this circuit is that the square waves can be used
 
 ***Figure 4***: Oscilloscope probe at potentiometer input.
 
-![alt text](https://i.imgur.com/eRJsuba.png)
+![alt text](https://i.imgur.com/lrDcQst.png)
 
 ***Figure 5***: Potentiometer probe at capacitor input.
 

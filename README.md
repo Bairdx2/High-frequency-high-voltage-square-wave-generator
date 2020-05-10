@@ -9,7 +9,7 @@ Square waves are a special type of PWM signal in which the duty cycle is 50%. Th
 ## Table of Contents:
 - Items needed
 - Schematic diagram
-- Application data
+- Useful application
 - Considerations
 ##
 ### Items needed:
@@ -26,7 +26,7 @@ Square waves are a special type of PWM signal in which the duty cycle is 50%. Th
 
 The schematic above has an arduino that controls the duty cycle of the motor driver output. The top potentiometer connects to the arduino and rotating the dial increases or decreases the duty cycle of the arduino PWM signal. Connect an oscilloscope to the output of the motor driver and rotate the potentiometer to change the duty cycle.
 ##
-### Application data
+### Useful application
 
 One very useful application of this circuit is that the square waves can be used to determine capacitance. The circuit below has the output of the motor driver connected to a capacitor and potentiometer that are in series. With an oscilloscope, the signal entering the potentiometer and the signal entering the capacitor are probed. The signal entering the potentiometer is square shaped but the signal entering the capacitor has a curvature as it rises. This curvature is the capacitor charging. The amount of time it takes for the capacitor to charge 63.2% is known as the RC time constant (τ) because in this case the circuit consists of a resistor (R) in series with a capacitor (C). This relationship is as follows: *τ = RC*. In this circuit, R is a known value and so is τ so therefore we can solve for capacitance and this is really useful when one comes across capacitors with unknown values. More information about this technique can be found [here](https://en.wikipedia.org/wiki/RC_time_constant) and [here](https://forum.arduino.cc/index.php?topic=173708.0)
 
